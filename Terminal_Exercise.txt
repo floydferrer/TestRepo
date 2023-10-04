@@ -1,0 +1,22 @@
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cd ..
+cp -r first second
+rm -rf second
+
+man provides a manual of inputted command
+up and down arrows are used to scroll
+q to exit
+ls -l uses a long listing format
+ctrl+left or right to jump between words
+ctrl+e to get to end of line
+ctrl+a to get to beginning of line
+ctrl+w to delete word up to cursor
+terminal is the interface used in shell; shell handles actual commands
+absolute path starts at the root directory; relative path starts at current location
+flags are modifiers to command: -r allows copying of directories, -a shows all files including hidden files, -f forces a command
+-r removes folders, -f forces removal of files within folders
