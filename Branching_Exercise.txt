@@ -1,0 +1,5 @@
+git checkout -b
+fast-forward is only possible when there are no changes to main branch
+git checkout
+git branch -D
+when there are conflicting changes to master and merged branch
